@@ -3,23 +3,23 @@
 \docType{data}
 \name{wiki_graph}
 \alias{wiki_graph}
-\title{Prices of 50,000 round cut diamonds.}
+\title{wiki_graph}
 \format{
-A data frame with 53940 rows and 10 variables:
+A data frame with 3 variables:
 \describe{
-  \item{price}{price, in US dollars}
-  \item{carat}{weight of the diamond, in carats}
+  \item{v1}{First node}
+  \item{v2}{Second node}
+  \item{w}{Distance from first node to second one}
   ...
 }
 }
 \source{
-\url{http://www.diamondse.info/}
+\url{https://en.wikipedia.org/wiki/Dijkstra_algorithm}
 }
 \usage{
 wiki_graph
 }
 \description{
-A dataset containing the prices and other attributes of almost 54,000
-diamonds.
+A dataset containing the distances from one node to other with their weighted values.
 }
 \keyword{datasets}

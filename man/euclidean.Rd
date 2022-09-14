@@ -25,3 +25,6 @@ temp2=euclidean(123612,13892347912)
 temp3=euclidean(100,1000)
 print(c(temp1,temp2,temp3))
 }
+\references{
+\url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
