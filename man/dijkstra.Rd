@@ -26,3 +26,6 @@ dijkstra(wiki_graph, 1)
 dijkstra(wiki_graph, 3)
 
 }
+\references{
+\url{en.wikipedia.org/wiki/Dijkstra_algorithm}
+}

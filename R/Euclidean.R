@@ -13,7 +13,7 @@
 #' print(c(temp1,temp2,temp3))
 #' @export
 #'
-#'
+#'@references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #'
 euclidean=function(a,b)
 
